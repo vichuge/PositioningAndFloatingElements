@@ -139,7 +139,7 @@ main {
     background-color: #eee;
     padding: 7px;
     border-radius: 50%;
-    
+
 }
 
 #icons2{
@@ -157,4 +157,16 @@ main {
     line-height: 2rem;
     color:#333;
 }
-
+.general-content a {
+  color: #326891;
+}
+.text-ad {
+  display: grid;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+.general-content hr {
+  width: 75px;
+}
