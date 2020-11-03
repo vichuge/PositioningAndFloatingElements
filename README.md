@@ -13,10 +13,10 @@
 -  **Victor Pacheco**
 - GitHub: [@elberthcorniell](https://github.com/vichuge)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
--  **Abdo Amin**
-- GitHub: [@Abdelrhman-Amin](https://github.com/AbdelrhmanAmin)
-- Twitter: [@Abdo-Amin](https://twitter.com/AbdoAmi60489112)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdo-amin-ab786a1b0/)
+-  **Mar Bautista**
+- GitHub: [@marilirulita](https://github.com/marilirulita)
+- Twitter: [@marylirulita](https://twitter.com/marylirulita)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mar-y-sol-bautista-alvarez-5a6894151/)
 
 ## Built
 
