@@ -58,7 +58,6 @@
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   padding: 11px 8px 6px 8px;
-
 }
 
 /* Main Content*/
@@ -298,6 +297,6 @@ main {
   font-size: 13px;
 }
 
-.nav-btn {
+.nav-btn-mess {
   width: 300px;
 }
