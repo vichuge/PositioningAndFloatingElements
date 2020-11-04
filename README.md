@@ -1,12 +1,12 @@
 **![](https://img.shields.io/badge/-microverse-yellow)**
 
-# Displaying And Inputting Data (Signup page)
+# Positioning And Floating Elements (New York Times page)
 
-> This is a collaborative second project in the HTML5&CSS3 Microverse curriculum. The name of the project is HTML FORMS and It was about displaying and inputting data using different types of forms.
+> This is a collaborative third project in the HTML5&CSS3 Microverse curriculum.
 
 # Screenshot
 
-![screenshot](./src/img/Screenshot.png)
+![screenshot](./assets/img/Screenshot.png)
 
 ## Developers
 
@@ -25,14 +25,7 @@
 
 ## Live Demo
 
-[Live_Demo](https://raw.githack.com/vichuge/DisplayingAndInputtingData/feature-branch/index.html)
-
-## SETUP
-
-    1- Open CMD
-    2- git clone https://github.com/vichuge/DisplayingAndInputtingData.git
-    3- Open with LIVE Server.
-    4- SMILE! :)
+[Live_Demo](https://raw.githack.com/vichuge/PositioningAndFloatingElements/feature-branch/index.html)
 
 ## Usage
 
