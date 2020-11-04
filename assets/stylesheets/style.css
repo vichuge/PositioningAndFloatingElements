@@ -164,9 +164,45 @@ main {
   display: grid;
   justify-content: center;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 1.5em;
 }
 .general-content hr {
   width: 75px;
+}
+.editor-picks {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+.editor-picks img {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+}
+.editor-picks a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+}
+.editor-picks a:hover {
+  text-decoration: underline;
+}
+.editor1 {
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.editor2, .editor3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.editor-picks h6 {
+  padding-bottom: 10px;
 }
