@@ -95,6 +95,13 @@ main {
   color: #66667a;
   line-height: 1.4em;
 }
+.img-subtle-2 p {
+  margin-top: 7px;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-size: 14.5px;
+  color: #66667a;
+  line-height: 1.4em;
+}
 
 .span-text1 {
   color: #8897ba;
@@ -105,7 +112,7 @@ main {
 }
 
 /* Content-1 */
-.content-1 {
+.content-1, .content-2 {
   margin-top: 15px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   display: grid;
@@ -186,6 +193,9 @@ main {
   font-weight: 400;
   font-size: 14px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .editor-picks a:hover {
