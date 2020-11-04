@@ -102,6 +102,13 @@ main {
   color: #66667a;
   line-height: 1.4em;
 }
+/* practice*/
+.img-subtle-3 p {
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-size: 13px;
+  color: #66667a;
+  line-height: 1.5em;
+}
 
 .span-text1 {
   color: #8897ba;
@@ -289,4 +296,8 @@ main {
 .g-author {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 13px;
+}
+
+.nav-btn {
+  width: 300px;
 }
