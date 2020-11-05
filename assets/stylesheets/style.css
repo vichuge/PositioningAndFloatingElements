@@ -24,7 +24,7 @@
   padding-right: 25px;
 }
 
-.nav-center {
+.nav-center a{
   display: grid;
 }
 
