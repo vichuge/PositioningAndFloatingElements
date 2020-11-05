@@ -619,3 +619,46 @@ main {
 .foot-fotter a {
   color: #666666;
 }
+
+footer {
+  position: fixed;
+  width: 100%;
+  border-top: 1px solid #919191;
+  bottom: 0;
+  background-color: white;
+}
+.foot-section {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  border-top: 1px solid #C7C7C7;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  justify-items: end;
+  padding: 15px 30px;
+}
+.foot-section h3 {
+  font-size: 17px;
+  margin: 0;
+  font-weight: bold;
+}
+.foot-section span {
+  font-weight: lighter;
+}
+.expand-foot {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.expand-foot span {
+  margin: 0 30px;
+  font-weight: bold;
+}
+.expand {
+  font-size: 13px;
+}
+.arrowUp {
+  font-size: 30px;
+  font-weight: bold;
+  color: #343434;
+}
