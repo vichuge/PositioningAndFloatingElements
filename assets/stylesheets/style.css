@@ -94,19 +94,13 @@ main {
   color: #66667a;
   line-height: 1.4em;
 }
+
 .img-subtle-2 p {
   margin-top: 7px;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-size: 14.5px;
   color: #66667a;
   line-height: 1.4em;
-}
-/* practice*/
-.img-subtle-3 p {
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-  font-size: 13px;
-  color: #66667a;
-  line-height: 1.5em;
 }
 
 .span-text1 {
@@ -118,7 +112,8 @@ main {
 }
 
 /* Content-1 */
-.content-1, .content-2 {
+.content-1,
+.content-2 {
   margin-top: 15px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   display: grid;
@@ -297,6 +292,220 @@ main {
   font-size: 13px;
 }
 
+
+/*Content-2 footer*/
 .nav-btn-mess {
   width: 300px;
+}
+
+.img-subtle-3 p {
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-size: 13px;
+  color: #66667a;
+  line-height: 1.5em;
+}
+
+/*Content-3*/
+
+.content-3 {
+  display: grid;
+  grid-template-columns: 1fr 330px;
+  grid-template-areas:
+    "suggested popular"
+    "more popular"
+    "editor popular";
+  margin: 40px 75px;
+  grid-gap: 30px;
+}
+
+.content-3>* {
+  border-top: 1px solid black
+}
+
+.c3-suggested {
+  grid-area: suggested;
+  border-top: 1px solid black;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  grid-gap: 20px;
+}
+
+.c3-suggested-title {
+  margin-top: 17px;
+  grid-area: title;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.c3-suggested-title p {
+  margin-bottom: 0px;
+}
+
+.c3-suggested-title-left {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.c3-suggested-title-right a{
+  text-decoration: none;
+  color: #666;
+  font-size: 13px; 
+}
+
+.c3-suggested-title-right{
+  justify-self: right;
+}
+
+.c3-suggested {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "title title title"
+    "suggested popular more";
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.c3-suggested .c3-element {
+  display: grid;
+  border: 1px solid #eee;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "image add-i"
+    "subtitle subtitle"
+    "title title"
+    "text text"
+    "link link"
+  ;
+  padding: 15px;
+}
+
+.c3-suggested .c3-element .add-i {
+  grid-area: add-i;
+  text-decoration: none;
+  color: black;
+  justify-self: right;
+}
+
+.c3-suggested .c3-element img {
+  grid-area: image;
+  margin-bottom: 15px;
+}
+
+.c3-suggested .c3-element .subtitle {
+  grid-area: subtitle;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.c3-suggested .c3-element .title {
+  grid-area: title;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.c3-suggested .c3-element .text {
+  grid-area: text;
+  font-size: 15px;
+  line-height: 19px;
+  color: #444;
+}
+
+.c3-suggested .c3-element .link p {
+  margin-bottom: 0;
+}
+
+.c3-suggested .c3-element .link {
+  grid-area: link;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #326891;
+  align-self: end;
+}
+
+.c3-suggested .c3-element .link:hover {
+  text-decoration: underline;
+}
+
+.c3-popular {
+  grid-area: popular;
+}
+
+.c3-popular>* {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 17px;
+}
+
+.popular-title {
+  margin-top: 17px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: #333;
+}
+
+.popular-element a {
+  color: black;
+  text-decoration: none;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 19px;
+  line-height: 20px;
+}
+
+.popular-element a:hover {
+  color: #666;
+}
+
+.c3-more {
+  grid-area: more;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.c3-more,
+.c3-editor-picks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.c3-more-title,
+.c3-editor-title {
+  grid-column: 1 / -1;
+  margin-top: 17px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.more-source, .editor-element-source {
+  text-transform: capitalize;
+  font-size: 10.5px;
+  color: #aaa;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.more-element-title, .editor-element-title {
+  margin-top: 5px;
+  font-size: 17px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+.more-element-date, .editor-element-date {
+  font-size: 11px;
+  color: #aaa;
+  margin-top: 10px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.c3-editor-picks{
+  grid-area: editor;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
