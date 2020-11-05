@@ -24,7 +24,7 @@
   padding-right: 25px;
 }
 
-.nav-center a{
+.nav-center a {
   display: grid;
 }
 
@@ -123,7 +123,7 @@ main {
 .content-author1 {
   font-weight: 700;
   font-size: 14px;
-  color: #333333;
+  color: #333;
 }
 
 .content-date1 {
@@ -136,14 +136,14 @@ main {
   font-size: 13.5px;
 }
 
-#circle {
+.circle {
   background-color: #eee;
   padding: 7px;
   border-radius: 50%;
 
 }
 
-#icons2 {
+.icons2 {
   font-size: 25px;
 }
 
@@ -345,13 +345,13 @@ main {
   font-weight: 600;
 }
 
-.c3-suggested-title-right a{
+.c3-suggested-title-right a {
   text-decoration: none;
   color: #666;
   font-size: 13px;
 }
 
-.c3-suggested-title-right{
+.c3-suggested-title-right {
   justify-self: right;
 }
 
@@ -482,7 +482,8 @@ main {
   font-weight: 600;
 }
 
-.more-source, .editor-element-source {
+.more-source,
+.editor-element-source {
   text-transform: capitalize;
   font-size: 10.5px;
   color: #aaa;
@@ -490,7 +491,8 @@ main {
   margin-top: 5px;
 }
 
-.more-element-title, .editor-element-title {
+.more-element-title,
+.editor-element-title {
   margin-top: 5px;
   font-size: 17px;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
@@ -498,14 +500,15 @@ main {
   text-transform: capitalize;
 }
 
-.more-element-date, .editor-element-date {
+.more-element-date,
+.editor-element-date {
   font-size: 11px;
   color: #aaa;
   margin-top: 10px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
-.c3-editor-picks{
+.c3-editor-picks {
   grid-area: editor;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
@@ -517,11 +520,13 @@ main {
   white-space: nowrap;
   margin-bottom: 50px;
 }
+
 /*this is for the two borders in the up footer side */
 .Just-border {
   border-bottom: 2px solid #E2E2E2;
   margin: 2px;
 }
+
 /*this is a grid, need to finish the correct sizes */
 .links-div {
   border-top: 1px solid #E2E2E2;
@@ -531,15 +536,19 @@ main {
   grid-template-rows: repeat(3, auto);
   grid-gap: 10px;
 }
+
 .links-div a {
   text-decoration: none;
 }
+
 .links-div h5 {
   color: #333;
   font-weight: bold;
   font-size: 14px;
 }
-.links-div h5, .links-div a {
+
+.links-div h5,
+.links-div a {
   margin: 5px;
   text-transform: capitalize;
 }
@@ -551,14 +560,17 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+
 .head-footer img {
   width: 200px;
   height: auto;
 }
+
 .head-footer a {
   font-size: 12px;
   color: rgb(86, 123, 149);
 }
+
 /* this is the main foot links*/
 .main-footer {
   grid-area: 2/1/span 1/span 1;
@@ -566,34 +578,47 @@ main {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.links-grid-foot, .side-up, .side-down {
+.links-grid-foot,
+.side-up,
+.side-down {
   display: flex;
   flex-direction: column;
 }
+
 .main-footer a {
   font-size: 14px;
 }
-.side-footer a, .foot-fotter a {
+
+.side-footer a,
+.foot-fotter a {
   font-size: 12px;
 }
-.main-footer a, .side-footer a {
+
+.main-footer a,
+.side-footer a {
   color: #000;
   font-weight: 500;
   line-height: 16px;
 }
-.main-footer a:hover, .side-footer a:hover, .foot-fotter a:hover {
+
+.main-footer a:hover,
+.side-footer a:hover,
+.foot-fotter a:hover {
   text-decoration: underline;
 }
- /*this is for the side links */
+
+/*this is for the side links */
 .side-footer {
   display: grid;
   grid-template-rows: 1fr auto;
   border-left: 1px solid #E2E2E2;
   padding: 0 10px;
 }
+
 .side-up {
   border-bottom: 1px solid #E2E2E2;
 }
+
 .bolder span {
   font-weight: 800;
   font-size: 17px;
@@ -610,12 +635,14 @@ main {
   display: flex;
   flex-direction: column;
 }
+
 /* this is for the footer of the footer :D*/
 .foot-fotter {
   border-top: 1px solid #E2E2E2;
   grid-area: 3/1/span 1/span 2;
   padding: 10px 50px;
 }
+
 .foot-fotter a {
   color: #666666;
 }
@@ -627,6 +654,7 @@ footer {
   bottom: 0;
   background-color: white;
 }
+
 .foot-section {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   border-top: 1px solid #C7C7C7;
@@ -636,27 +664,33 @@ footer {
   justify-items: end;
   padding: 15px 30px;
 }
+
 .foot-section h3 {
   font-size: 17px;
   margin: 0;
   font-weight: bold;
 }
+
 .foot-section span {
   font-weight: lighter;
 }
+
 .expand-foot {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 100%;
 }
+
 .expand-foot span {
   margin: 0 30px;
   font-weight: bold;
 }
+
 .expand {
   font-size: 13px;
 }
+
 .arrowUp {
   font-size: 30px;
   font-weight: bold;
