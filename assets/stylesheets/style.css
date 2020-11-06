@@ -673,13 +673,14 @@ footer {
   width: 100%;
 }
 
-.expand-foot .expand, .expand-foot .arrowUp {
-  margin: 0 30px;
-  font-weight: bold;
-}
-
 .expand {
   font-size: 13px;
+}
+
+.expand-foot .expand,
+.expand-foot .arrowUp {
+  margin: 0 30px;
+  font-weight: bold;
 }
 
 .arrowUp {
