@@ -127,8 +127,8 @@ main {
 }
 
 .content-date1 {
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
   margin-bottom: 30px;
 }
 
@@ -144,6 +144,10 @@ main {
 
 .icons2 {
   font-size: 25px;
+}
+
+.social-icons1 {
+  float:right;
 }
 
 .social-icons1 > i {
@@ -177,11 +181,12 @@ main {
 .editor-picks {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 600;
-  margin-left: 90px;
+  margin: 0px 170px 0 90px;
   align-self: center;
 }
 
 .editor-picks img {
+  float: right;
   width: 100px;
   height: auto;
   padding: 10px;
@@ -203,23 +208,23 @@ main {
 }
 
 .editor1 {
-  border-top: 1px solid gray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
+  border-top: 1px solid #ccc;
+  padding-top: 5px;
 }
 
+.editor1,
 .editor2,
 .editor3 {
-  display: flex;
+  float:left;
+  margin-right: 20px;
+  /*display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 200px;*/
 }
 
 .editor-picks h6 {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   font-size: 14px;
   font-weight: 600;
 }
@@ -294,6 +299,7 @@ main {
 /* Content-2 footer */
 .nav-btn-mess {
   width: 300px;
+  float:left;
 }
 
 .img-subtle-3 p {
