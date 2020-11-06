@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.nav-left > * {
+.nav-left>* {
   padding-right: 25px;
 }
 
@@ -146,7 +146,7 @@ main {
   font-size: 25px;
 }
 
-.social-icons1 > i {
+.social-icons1>i {
   margin-right: 10px;
 }
 
@@ -243,7 +243,7 @@ main {
   font-family: nyt-cheltenham, georgia, times new roman, times, serif;
 }
 
-.g-header > * {
+.g-header>* {
   margin-bottom: 5px;
 }
 
@@ -316,7 +316,7 @@ main {
   grid-gap: 30px;
 }
 
-.content-3 > * {
+.content-3>* {
   border-top: 1px solid black;
 }
 
@@ -336,7 +336,7 @@ main {
   font-weight: 600;
 }
 
-.content-3 .c3-suggested .c3-suggested-title-right .c3-suggested-title-right-a{
+.content-3 .c3-suggested .c3-suggested-title-right .c3-suggested-title-right-a {
   text-decoration: none;
   color: #666;
   font-size: 13px;
@@ -428,7 +428,7 @@ main {
   grid-area: popular;
 }
 
-.c3-popular > * {
+.c3-popular>* {
   border-bottom: 1px solid #eee;
   margin-bottom: 17px;
 }
@@ -442,7 +442,7 @@ main {
   color: #333;
 }
 
-.popular-element a {
+.popular-element .popular-element-a {
   color: black;
   text-decoration: none;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
@@ -529,7 +529,7 @@ main {
   grid-gap: 10px;
 }
 
-.links-div a {
+.links-div > a {
   text-decoration: none;
 }
 
