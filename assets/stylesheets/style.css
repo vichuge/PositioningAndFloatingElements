@@ -127,8 +127,6 @@ main {
 }
 
 .content-date1 {
-  /*display: flex;*/
-  /*justify-content: space-between;*/
   margin-bottom: 30px;
 }
 
@@ -147,7 +145,7 @@ main {
 }
 
 .social-icons1 {
-  float:right;
+  float: right;
 }
 
 .social-icons1 > i {
@@ -181,7 +179,7 @@ main {
 .editor-picks {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 600;
-  margin: 0px 170px 0 90px;
+  margin: 0 170px 0 90px;
   align-self: center;
 }
 
@@ -215,12 +213,8 @@ main {
 .editor1,
 .editor2,
 .editor3 {
-  float:left;
+  float: left;
   margin-right: 20px;
-  /*display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;*/
 }
 
 .editor-picks h6 {
@@ -299,7 +293,7 @@ main {
 /* Content-2 footer */
 .nav-btn-mess {
   width: 300px;
-  float:left;
+  float: left;
 }
 
 .img-subtle-3 p {
