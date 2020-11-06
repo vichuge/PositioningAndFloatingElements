@@ -529,9 +529,9 @@ main {
   grid-gap: 10px;
 }
 
-/*.links-div > a {
+.links {
   text-decoration: none;
-}*/
+}
 
 .links-div h5 {
   color: #333;
@@ -540,7 +540,7 @@ main {
 }
 
 .links-div h5,
-.links-div a {
+.links-div .links {
   margin: 5px;
   text-transform: capitalize;
 }
@@ -558,7 +558,7 @@ main {
   height: auto;
 }
 
-.head-footer a {
+.head-link {
   font-size: 12px;
   color: rgb(86, 123, 149);
 }
@@ -577,17 +577,16 @@ main {
   flex-direction: column;
 }
 
-.main-footer a {
+.main-link {
   font-size: 14px;
 }
 
-.side-footer a,
-.foot-fotter a {
+.small-link {
   font-size: 12px;
 }
 
-.main-footer a,
-.side-footer a {
+.main-link,
+.side-link {
   color: #000;
   font-weight: 500;
   line-height: 16px;
@@ -635,7 +634,7 @@ main {
   padding: 10px 50px;
 }
 
-.foot-fotter a {
+.foot-link {
   color: #666;
 }
 
