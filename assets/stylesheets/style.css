@@ -677,13 +677,13 @@ footer {
   font-size: 13px;
 }
 
+.arrowUp {
+  font-size: 30px;
+  color: #343434;
+}
+
 .expand-foot .expand,
 .expand-foot .arrowUp {
   margin: 0 30px;
   font-weight: bold;
-}
-
-.arrowUp {
-  font-size: 30px;
-  color: #343434;
 }
