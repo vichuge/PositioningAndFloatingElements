@@ -320,12 +320,7 @@ main {
   border-top: 1px solid black;
 }
 
-.c3-suggested {
-  grid-area: suggested;
-  border-top: 1px solid black;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  grid-gap: 20px;
-}
+
 
 .c3-suggested-title {
   margin-top: 17px;
@@ -354,6 +349,10 @@ main {
 }
 
 .c3-suggested {
+  grid-area: suggested;
+  border-top: 1px solid black;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  grid-gap: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
@@ -361,6 +360,8 @@ main {
     "suggested popular more";
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
+
+
 
 .c3-suggested .c3-element {
   display: grid;
@@ -371,8 +372,7 @@ main {
     "subtitle subtitle"
     "title title"
     "text text"
-    "link link"
-  ;
+    "link link";
   padding: 15px;
 }
 
@@ -400,7 +400,7 @@ main {
   grid-area: title;
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
   text-transform: capitalize;
   margin-bottom: 5px;
 }
@@ -521,13 +521,13 @@ main {
 
 /* this is for the two borders in the up footer side  */
 .Just-border {
-  border-bottom: 2px solid #E2E2E2;
+  border-bottom: 2px solid #e2e2e2;
   margin: 2px;
 }
 
 /* this is a grid, need to finish the correct sizes  */
 .links-div {
-  border-top: 1px solid #E2E2E2;
+  border-top: 1px solid #e2e2e2;
   padding: 10px 0;
   display: grid;
   grid-template-columns: 5fr 1fr;
@@ -609,12 +609,12 @@ main {
 .side-footer {
   display: grid;
   grid-template-rows: 1fr auto;
-  border-left: 1px solid #E2E2E2;
+  border-left: 1px solid #e2e2e2;
   padding: 0 10px;
 }
 
 .side-up {
-  border-bottom: 1px solid #E2E2E2;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .bolder span {
@@ -636,13 +636,13 @@ main {
 
 /*  this is for the footer of the footer :D */
 .foot-fotter {
-  border-top: 1px solid #E2E2E2;
+  border-top: 1px solid #e2e2e2;
   grid-area: 3/1/span 1/span 2;
   padding: 10px 50px;
 }
 
 .foot-fotter a {
-  color: #666666;
+  color: #666;
 }
 
 footer {
@@ -655,7 +655,7 @@ footer {
 
 .foot-section {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  border-top: 1px solid #C7C7C7;
+  border-top: 1px solid #c7c7c7;
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
