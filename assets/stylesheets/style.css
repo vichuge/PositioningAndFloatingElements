@@ -320,8 +320,6 @@ main {
   border-top: 1px solid black;
 }
 
-
-
 .c3-suggested-title {
   margin-top: 17px;
   grid-area: title;
@@ -338,7 +336,7 @@ main {
   font-weight: 600;
 }
 
-.c3-suggested-title-right a {
+.content-3 .c3-suggested .c3-suggested-title-right .c3-suggested-title-right-a{
   text-decoration: none;
   color: #666;
   font-size: 13px;
@@ -358,10 +356,7 @@ main {
   grid-template-areas:
     "title title title"
     "suggested popular more";
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
-
-
 
 .c3-suggested .c3-element {
   display: grid;
@@ -400,7 +395,6 @@ main {
   grid-area: title;
   font-size: 16px;
   font-weight: 600;
-  /*margin-bottom: 0;*/
   text-transform: capitalize;
   margin-bottom: 5px;
 }
