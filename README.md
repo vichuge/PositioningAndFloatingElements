@@ -30,13 +30,15 @@
 
 ## Usage
 
-      This project is made using HTML & CSS.
-      You don't need any tools to run it, Just open the index.html in your favorite browser and it's done.
+  This project is made using HTML & CSS.
+  You don't need any tools to run it, Just open the index.html in your favorite browser and it's done.
 
 ## Contributing
 
-All issues are welcome to improve this project.
+Contributions, issues, and feature requests are welcome.
+
+Feel free to check the [issues page](https://github.com/vichuge/PositioningAndFloatingElements/issues).
 
 ## License
 
-[MIT](./LICENSE)
+This project is [MIT](./LICENSE) licensed.
