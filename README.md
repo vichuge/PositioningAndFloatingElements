@@ -11,12 +11,13 @@
 ## Developers
 
 -  **Victor Pacheco**
-- GitHub: [@elberthcorniell](https://github.com/vichuge)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
+- GitHub: [@vichuge](https://github.com/vichuge)
+- LinkedIn: [Victor Pacheco](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
+
 -  **Mar Bautista**
 - GitHub: [@marilirulita](https://github.com/marilirulita)
 - Twitter: [@marylirulita](https://twitter.com/marylirulita)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mar-y-sol-bautista-alvarez-5a6894151/)
+- LinkedIn: [Mar y Sol Bautista](https://www.linkedin.com/in/mar-y-sol-bautista-alvarez-5a6894151/)
 
 ## Built
 
